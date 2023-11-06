@@ -10,7 +10,7 @@ date = []
 profit_loss = []
 profit_change = []
 
-
+# opening csv file
 with open(budget_data_csv, encoding='UTF-8') as csvfile:
     csvreader = csv.reader(csvfile, delimiter=",")
 
